@@ -13,7 +13,7 @@ body {
   height: 25px;
   border: 2px solid;
   font-size: 16px;
-  font-style: bold;
+  font-weight: bold;
   margin-top: 1.8%;
   margin-left: 2%;
 }
@@ -31,29 +31,29 @@ body {
 }
 
 form {
-    margin-left: -15%;
+  margin-left: -15%;
 }
 
 #add-title {
-    margin-top: -3%;
+  margin-top: -3%;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 input {
-    border: 2px solid;
+  border: 2px solid;
 }
 
 ul li {
-    margin-bottom: 8%;
+  margin-bottom: 8%;
 }
 
 #score-submit {
-    width: 50%;
-    align-items: flex-end;
-    border: 2px solid;
-    font-size: 16px;
-    font-style: bold;
+  width: 50%;
+  align-items: flex-end;
+  border: 2px solid;
+  font-size: 16px;
+  font-weight: bold;
 }
