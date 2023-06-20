@@ -1,9 +1,9 @@
 export default class Leaderboard {
   constructor() {
     this.scores = {
-      id: "",
-      names: "",
-      score: "",
+      id: '',
+      names: '',
+      score: '',
     };
   }
 
