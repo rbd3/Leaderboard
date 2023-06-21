@@ -1,13 +1,13 @@
 const gameId = () => {
-    fetch(
-      "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games",
+  fetch(
+    "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games",
       {
-        method: "POST",
-        body: JSON.stringify({
-          name: "Project Game",
-        }),
+      method: 'POST',
+      body: JSON.stringify({
+      name: 'Project Game',
+      }),
         headers: {
-          "Content-type": "application/json; charset=UTF-8",
+          'Content-type': 'application/json; charset=UTF-8',
         },
       },
     )
@@ -18,5 +18,4 @@ const gameId = () => {
       });
   };
   
-   gameId();
-  
+gameId();
