@@ -21,7 +21,7 @@ body {
 #add-score {
   display: flex;
   margin-left: 30%;
-  margin-top: -1%;
+  margin-top: -24%;
 }
 
 .add-list {
@@ -47,7 +47,7 @@ input {
 }
 
 ul li {
-  margin-bottom: 8%;
+  margin-bottom: 10%;
 }
 
 #score-submit {
@@ -56,4 +56,17 @@ ul li {
   border: 2px solid;
   font-size: 16px;
   font-weight: bold;
+}
+
+#score-list {
+  border: 3px solid;
+  margin-top: 25%;
+  margin-left: -90%;
+  width: 100%;
+  height: auto;
+}
+
+#score-list li {
+  margin-top: 2%;
+  margin-left: -10%;
 }
