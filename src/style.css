@@ -1,0 +1,59 @@
+body {
+  background-color: azure;
+}
+
+#recent-score {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+}
+
+#refresh {
+  width: 85px;
+  height: 25px;
+  border: 2px solid;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 1.8%;
+  margin-left: 2%;
+}
+
+#add-score {
+  display: flex;
+  margin-left: 30%;
+  margin-top: -1%;
+}
+
+.add-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin-left: -20.5%;
+}
+
+#add-title {
+  margin-top: -3%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input {
+  border: 2px solid;
+}
+
+ul li {
+  margin-bottom: 8%;
+}
+
+#score-submit {
+  width: 50%;
+  align-items: flex-end;
+  border: 2px solid;
+  font-size: 16px;
+  font-weight: bold;
+}
