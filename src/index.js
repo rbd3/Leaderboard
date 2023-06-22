@@ -36,6 +36,7 @@ const render = () => {
   const table = document.getElementById('score-list');
   table.innerHTML = '';
   scores.then((result) => {
+    result.sort((a, b) => b.score - a.score);
     result.forEach((score) => {
       table.innerHTML += `<li>${score.user}: ${score.score}</li>`;
     });
