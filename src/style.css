@@ -99,12 +99,22 @@ ul li {
   body {
     background-color: azure;
   }
+
+  .title {
+    margin-left: 30%;
+    font-size: 64px;
+  }
+
+  #recent-title {
+    font-size: 40px;
+  }
   
-  #recent-score {
+  .wraper1 {
     display: flex;
     flex-direction: row;
-    margin-left: 3%;
+    margin-left: 10%;
   }
+  
   
   #refresh {
     width: 85px;
@@ -112,14 +122,14 @@ ul li {
     border: 2px solid;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 1.8%;
-    margin-left: 2%;
+    margin-top: 4%;
+    margin-left: 10%;
   }
   
   #add-score {
     display: flex;
-    margin-left: 30%;
-    margin-top: -15%;
+    margin-left: 50%;
+    margin-top: -47.1%;
   }
   
   .add-list {
@@ -129,11 +139,12 @@ ul li {
   }
   
   form {
-    margin-left: -20.5%;
+    margin-left: -50%;
   }
   
   #add-title {
-    margin-top: -3%;
+    margin-top: -14%;
+    font-size: 40px;
   }
   
   ul {
@@ -142,30 +153,46 @@ ul li {
   
   input {
     border: 2px solid;
+    border-color: olive;
+    font-size: 18px;
   }
   
   ul li {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   
   #score-submit {
-    width: 50%;
+    width: 12%;
     align-items: flex-end;
     border: 2px solid;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
   }
   
   #score-list {
     border: 3px solid;
-    margin-top: 25%;
-    margin-left: -90%;
-    width: 100%;
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 30%;
     height: auto;
+    border-top-right-radius: 0;
+    font-size: 18px;
   }
   
   #score-list li {
-    margin-top: 2%;
-    margin-left: -10%;
-  } 
+    margin-top: 5%;
+    margin-left: -4%;
+    margin-bottom: 5%;
+    font-size: larger;
+  }
+  
+  #name {
+    width: 150%;
+    height: 4vh;
+  }
+
+  #scoreinput {
+    width: 150%;
+    height: 4vh;
+  }
 }
